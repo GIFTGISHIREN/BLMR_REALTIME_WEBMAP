@@ -108,7 +108,7 @@ legend.addTo(map);
   <script type="text/javascript" src="./scripts/map.js"></script>
 
   async function fetchAndCountData() {
-    const sheetURL = '  https://docs.google.com/spreadsheets/d/1UlSwRNgWSiz4vMZCawj_lLC0Vfp3QzXPakUzUmch6tk/edit#gid=0'; // Replace with your actual CSV URL
+    const sheetURL = 'https://docs.google.com/spreadsheets/d/1UlSwRNgWSiz4vMZCawj_lLC0Vfp3QzXPakUzUmch6tk/gviz/tq?tqx=out:csv'; // Replace with your actual CSV URL
     const response = await fetch(sheetURL);
     const data = await response.text();
 
