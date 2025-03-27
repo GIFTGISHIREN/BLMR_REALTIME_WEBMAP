@@ -67,7 +67,14 @@ form {
 }
 
 .leaflet-popup-content {
-  min-width: 150px;
+  min-width: 200px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  padding: 10px;
+}
+
 }
 
 .leaflet-popup-content img {
@@ -288,3 +295,59 @@ span.legend-icon {
 .ladder form, .ladder div {
   display: block;
 }
+/* Custom Pop-up Styling */
+.leaflet-popup-content-wrapper {
+  background: #fff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+
+.leaflet-popup-tip {
+  background: white;
+}
+
+/* Header Styling */
+.popup-header {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+/* Description Styling */
+.popup-content {
+  font-size: 14px;
+  padding: 5px;
+}
+
+/* Image Styling */
+.popup-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+.popup-button {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  background: #007bff;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.popup-button:hover {
+  background: #0056b3;
+}
+
